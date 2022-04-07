@@ -1,0 +1,56 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	font-family: arial, sans-serif, tahoma, helvetica, courier;
+	font-size: 62.5%;
+}
+
+body{
+	font-size: 1.6rem;
+}
+
+.container{
+	width: 95%;
+	min-height: 100vh;
+	background-color: #cccccc;
+	margin: 1rem auto; 
+}
+
+.menu{
+	width: 100%;
+	background-color: #bababa;
+}
+
+ul{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+li{
+	display: block;
+	list-style: none;
+	margin: 1rem;
+}
+
+a{
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	font-weight: bold;
+	color: #ef0000;
+	padding: 1rem;
+}
+
+a:hover{
+	color: #fefefe;
+}
+
+.content{
+	padding: 1rem;
+}
